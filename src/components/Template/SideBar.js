@@ -13,16 +13,20 @@ const SideBar = () => (
       </Link>
       <header>
         <h2>Mredul Hasan</h2>
-        <p><a href="mailto:mredulhasan93@gmail.com">mredulhasan93@gmail.com</a></p>
+        <p>
+          <a href="mailto:mredulhasan93@gmail.com">mredulhasan93@gmail.com</a>
+          OR
+          <a href="mailto:mredul1438@cseku.ac.bd">mredul1438@cseku.ac.bd</a>
+        </p>
       </header>
     </section>
 
     <section className="blurb">
       <h2>About</h2>
-      <p>Hi, I&apos;m Mredul. I am a JS learner, MERN enthusiast.
-        I am a <a href="http://cseku.ac.bd/">KUCSE</a> graduate. Currently working on Reactjs
-        at <a href="http://techoptions.com.bd/">TechOptions</a>. Before here I worked at
-        , <a href="https://www.aamratechnologies.com/">Aamra Technologies Limited</a> as Programmer,
+      <p>Hi, I&apos;m Mredul. I am a JS learner, MERN enthusiast. <br />
+        I am a <a href="http://cseku.ac.bd/">KUCSE</a> graduate. <br />
+        Currently working on Reactjs at <a href="http://techoptions.com.bd/">TechOptions</a>. <br />
+        Before here I worked at <a href="https://www.aamratechnologies.com/">Aamra Technologies Limited</a> as Programmer
         , <a href="#0">Rafiqul Islam College</a> as a Lecturer.
       </p>
       <ul className="actions">
@@ -34,7 +38,7 @@ const SideBar = () => (
 
     <section id="footer">
       <ContactIcons />
-      <p className="copyright">&copy; Michael D&apos;Angelo <Link to="/">mldangelo.com</Link>.</p>
+      <p className="copyright">&copy; Mredul Hasan</p>
     </section>
   </section>
 );
